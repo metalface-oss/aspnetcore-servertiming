@@ -10,7 +10,6 @@
     <Description>Enables a server to communicate performance metrics about the request-response cycle to the user agent using Server-Timing response header as specified in https://www.w3.org/TR/server-timing</Description>
     <PackageProjectUrl>https://github.com/metalface-oss/aspnetcore-servertiming</PackageProjectUrl>
     <RepositoryUrl>https://github.com/metalface-oss/aspnetcore-servertiming</RepositoryUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/metalface-oss/aspnetcore-servertiming/master/LICENSE.md</PackageLicenseUrl>
     <PackageTags>server-timing metrics performance apm aspnetcore dotnetcore</PackageTags>
     <Copyright>Metalface</Copyright>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
@@ -18,7 +17,6 @@
     <RepositoryType>Github</RepositoryType>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <ItemGroup>
     <None Include="../../LICENSE.md" Pack="true" PackagePath="$(PackageLicenseFile)" Visible="false" />
