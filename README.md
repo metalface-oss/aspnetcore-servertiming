@@ -68,7 +68,7 @@ public void Configure(IApplicationBuilder app)
 That's all you need to do for the ```Total``` metric to show up in Chrome DevTools.
 
 ## Advanced Usage
-Once the ```Total``` metric is not enough, it is easy to return more custom metrics to the client.
+If the ```Total``` metric is not enough, it is easy to return more custom metrics to the client.
 You just need to add one more line to your ```ConfigureServices``` method:
 
 ```csharp
