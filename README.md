@@ -5,6 +5,9 @@
 <p align="center">
   Enables a server to communicate performance metrics about the request-response cycle to the user agent using<br/>Server-Timing response header as specified in https://www.w3.org/TR/server-timing
 </p>
+<p align="center">
+      <img alt="" src="https://travis-ci.org/metalface-oss/aspnetcore-servertiming.svg?branch=master"/>
+</p>
 <div align="center">
   <sub>Built with ❤︎ by 
   <a href="https://www.metalface.com">Metalface</a> and
