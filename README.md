@@ -44,7 +44,7 @@ Now, in 2019, we are doing that in more advanced way, because we want to:
 ## Getting Started
 You can install the library as a [Nuget package](https://www.nuget.org/packages/Metalface.AspNetCore.ServerTiming) into your project from Visual Studio editor by searching for ```Metalface.AspNetCore.ServerTiming``` package or by using .NET CLI:
 
-```batchfile
+```console
 dotnet add package Metalface.AspNetCore.ServerTiming
 ```
 
