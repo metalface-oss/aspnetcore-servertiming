@@ -23,7 +23,7 @@
 [Getting Started](#getting-started)    
 [Basic Usage](#basic-usage)    
 [Advanced Usage](#advanced-usage)    
-[FAQ](#faq)    
+[Integrations](#integrations)    
 [License](#license)    
 
 ## Overview
@@ -102,8 +102,18 @@ The recorder will measure execution time of any code, placed between ```BeginRec
 
 ![image](https://user-images.githubusercontent.com/102076/52399547-48cf9b80-2ac5-11e9-883f-88b392409c2a.png)
 
-## FAQ
-See the [FAQ.md](FAQ.md) file for details.
+## Integrations
+Postman test:
+```js
+pm.test('Server performance is acceptable', () => {
+    let header = postman.getResponseHeader('Server-Timing');
+    pm.expect(header).not.eql(undefined);
+    
+    let pattern = /total;(?:desc=[^;]*;)?dur=([\d]+)/i;
+    let duration = parseFloat(header.match(pattern)[1]);
+    pm.expect(duration).to.be.below(200);
+});
+```
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
