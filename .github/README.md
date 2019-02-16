@@ -116,7 +116,7 @@ pm.test('Server performance is acceptable', () => {
 ```
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](../LICENSE.md) file for details.
 
 
 [Scroll back to top](#js-repo-pjax-container) and star us ★ - it helps! ❤︎
