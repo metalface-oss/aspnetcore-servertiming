@@ -69,18 +69,7 @@ That's all you need to do for the ```Total``` metric to show up in Chrome DevToo
 
 ## Advanced Usage
 If the ```Total``` metric is not enough, it is easy to return more custom metrics to the client.
-You just need to add one more line to your ```ConfigureServices``` method:
-
-```csharp
-public IServiceProvider ConfigureServices(IServiceCollection services)
-{
-  services.AddServerTiming();
-  services.AddScoped<IServerTimingRecorder, ServerTimingRecorder>();
-  ...
-}
-```
-
-Then, the recorder, responsible for creating custom metrics, will available in your controllers:
+The recorder, responsible for creating custom metrics, may be injected in your controller:
 
 ```csharp
 using Metalface.AspNetCore.ServerTiming;
