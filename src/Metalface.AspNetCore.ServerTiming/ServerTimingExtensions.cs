@@ -1,5 +1,6 @@
-﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace Metalface.AspNetCore.ServerTiming
 {
@@ -11,6 +12,8 @@ namespace Metalface.AspNetCore.ServerTiming
             {
                 throw new System.ArgumentNullException(nameof(services));
             }
+
+            services.TryAdd(ServiceDescriptor.Singleton<IServerTimingRecorder, ServerTimingRecorder>());
 
             return services;
         }
