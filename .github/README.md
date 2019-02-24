@@ -1,14 +1,15 @@
-<p align="center">
+<div align="center">
   <img alt="" src="https://user-images.githubusercontent.com/102076/52376950-23627380-2a6c-11e9-83d3-86085c3b3653.png"/>
-</p>
+</div>
 <h1 align="center">Server-Timing response header<br/>for ASP.NET Core</h1>
-<p align="center">
+<div align="center">
   Enables a server to communicate performance metrics about the request-response cycle to the user agent using<br/>Server-Timing response header as specified in https://www.w3.org/TR/server-timing
-</p>
-<p align="center">
+</div>
+<br/>
+<div align="center">
   <img alt="" src="https://travis-ci.org/metalface-oss/aspnetcore-servertiming.svg?branch=master"/>
   <img alt="" src="https://buildstats.info/nuget/Metalface.AspNetCore.ServerTiming"/>
-</p>
+</div>
 <div align="center">
   <sub>Built with ❤︎ by 
   <a href="https://www.metalface.com">Metalface</a> and
@@ -16,16 +17,12 @@
     contributors
   </a>
   </sub>
-  <br/><br/>
 </div>
-
-## Table of Contents
-[Overview](#overview)    
-[Getting Started](#getting-started)    
-[Basic Usage](#basic-usage)    
-[Advanced Usage](#advanced-usage)    
-[Integrations](#integrations)    
-[License](#license)    
+<br/><br/>
+<div align="center">
+    <a href="#overview">Overview</a>&#160;&#160;&#x2758;&#160;&#160;<a href="#getting-started">Getting Started</a>&#160;&#160;&#x2758;&#160;&#160;<a href="#basic-usage">Basic Usage</a>&#160;&#160;&#x2758;&#160;&#160;<a href="#advanced-usage">Advanced Usage</a>&#160;&#160;&#x2758;&#160;&#160;<a href="#integrations">Integrations</a>&#160;&#160;&#x2758;&#160;&#160;<a href="#license">License</a> 
+</div> 
+<br/><br/>
 
 ## Overview
 Sometimes we need to know how long does it take to generate a page or API response, or we are interested in learning how much time are we spending in a heavy process such as complex database query or connecting to an external server. Few of us may even remember the ```This page was generated in 0.112358 seconds``` text, proudly displayed at the bottom of the page.
