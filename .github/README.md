@@ -20,12 +20,7 @@
 </div>
 <br/>
 <div align="center">
-    <a href="#overview">Overview</a>&#160;&#x2758;&#160;
-    <a href="#getting-started">Getting Started</a>&#160;&#x2758;&#160;
-    <a href="#basic-usage">Basic Usage</a>&#160;&#x2758;&#160;
-    <a href="#advanced-usage">Advanced Usage</a>&#160;&#x2758;&#160;
-    <a href="#integrations">Integrations</a>&#160;&#x2758;&#160;
-    <a href="#license">License</a> 
+    <a href="#overview">Overview</a>&#160;&#x2758;&#160;<a href="#getting-started">Getting Started</a>&#160;&#x2758;&#160;<a href="#basic-usage">Basic Usage</a>&#160;&#x2758;&#160;<a href="#advanced-usage">Advanced Usage</a>&#160;&#x2758;&#160;<a href="#integrations">Integrations</a>&#160;&#x2758;&#160;<a href="#license">License</a> 
 </div> 
 
 ## Overview
