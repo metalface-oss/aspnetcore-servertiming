@@ -18,10 +18,11 @@
   </a>
   </sub>
 </div>
-<br/>
+<br/><br/>
 <div align="center">
     <a href="#overview">Overview</a>&#160;&#160;&#x2758;&#160;&#160;<a href="#getting-started">Getting Started</a>&#160;&#160;&#x2758;&#160;&#160;<a href="#basic-usage">Basic Usage</a>&#160;&#160;&#x2758;&#160;&#160;<a href="#advanced-usage">Advanced Usage</a>&#160;&#160;&#x2758;&#160;&#160;<a href="#integrations">Integrations</a>&#160;&#160;&#x2758;&#160;&#160;<a href="#license">License</a> 
 </div> 
+<br/>
 
 ## Overview
 Sometimes we need to know how long does it take to generate a page or API response, or we are interested in learning how much time are we spending in a heavy process such as complex database query or connecting to an external server. Few of us may even remember the ```This page was generated in 0.112358 seconds``` text, proudly displayed at the bottom of the page.
