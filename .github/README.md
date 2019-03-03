@@ -1,9 +1,9 @@
 <div align="center">
   <img alt="" src="https://user-images.githubusercontent.com/102076/52376950-23627380-2a6c-11e9-83d3-86085c3b3653.png"/>
 </div>
-<h1 align="center">Server-Timing response header<br/>for ASP.NET Core</h1>
+<h1 align="center">Server Timing response header<br/>for ASP.NET Core</h1>
 <div align="center">
-  Enables a server to communicate performance metrics about the request-response cycle to the user agent using<br/>Server-Timing response header as specified in https://www.w3.org/TR/server-timing
+  Enables a server to communicate performance metrics about the request-response cycle to the user agent using<br/>Server Timing response header as specified in https://www.w3.org/TR/server-timing
 </div>
 <br/>
 <div align="center">
