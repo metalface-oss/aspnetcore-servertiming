@@ -4,7 +4,7 @@
 3. Please follow the template, otherwise we'll have to ask you to update it and it will take longer until your PR is merged.
 -->
 
-## What did you implement:
+## What is implemented
 
 Closes #XXXXX
 
@@ -12,28 +12,29 @@ Closes #XXXXX
 Briefly describe the feature if no issue exists for this PR
 -->
 
-## How did you implement it:
+## How it is implemented
 
 <!--
 If this is a nontrivial change please briefly describe your implementation so its easy for us to understand and review your code.
 -->
 
-## How can we verify it:
+## How can it be tested
 
 <!--
 Add any applicable config, commands, screenshots or other resources
-to make it easy for us to verify this works. The easier you make it for us
+to make it easy for us to test it. The easier you make it for us
 to review a PR, the faster we can review and merge it.
 -->
 
-## Todos:
+## Todos
 
-- [ ] Write tests
-- [ ] Write documentation
-- [ ] Make sure code coverage hasn't dropped
-- [ ] Provide verification config / commands / resources
-- [ ] Enable "Allow edits from maintainers" for this PR
-- [ ] Update the messages below
+Mark if complete or not relevant:  
 
-***Is this ready for review?:*** NO
-***Is it a breaking change?:*** NO
+- [ ] Test: write tests
+- [ ] Test: Make sure code coverage hasn't dropped
+- [ ] Test: Provide verification config / commands / resources
+- [ ] Documentation: write documentation
+- [ ] Other: enable "Allow edits from maintainers" for this PR
+- [ ] Other: update the messages below
+
+Is it a breaking change?: NO
