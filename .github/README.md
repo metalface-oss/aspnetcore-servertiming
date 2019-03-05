@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="" height="128" src="https://avatars0.githubusercontent.com/u/47396933?s=460&v=4" width="128"/>
+  <img alt="" height="100" src="https://avatars0.githubusercontent.com/u/47396933?s=460&v=4" width="100"/>
 </div>
 <h1 align="center">Server Timing response header<br/>for ASP.NET Core</h1>
 <div align="center">
@@ -11,7 +11,7 @@
   <img alt="" src="https://buildstats.info/nuget/Metalface.AspNetCore.ServerTiming"/>
 </div>
 <div align="center">
-  <sub>Built with ❤︎ by 
+  <sub>Built with <span color="#20ad65">❤︎</span> by 
   <a href="https://www.metalface.com">Metalface</a> and
   <a href="https://github.com/metalface-oss/aspnetcore-servertiming/graphs/contributors">
     contributors
@@ -117,4 +117,4 @@ pm.test('Server performance is acceptable', () => {
 This project is licensed under the MIT License - see the [LICENSE.md](../LICENSE.md) file for details.
 
 
-[Scroll back to top](#js-repo-pjax-container) and star us ★ - it helps! ❤︎
+[Scroll back to top](#js-repo-pjax-container) and star ★ us - it helps!
