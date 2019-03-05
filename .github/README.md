@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="" height="128" src="https://user-images.githubusercontent.com/47396933/53815638-b064f380-3f6a-11e9-8c33-51a76c704290.png" width="128"/>
+  <img alt="" height="128" src="https://avatars0.githubusercontent.com/u/47396933?s=460&v=4" width="128"/>
 </div>
 <h1 align="center">Server Timing response header<br/>for ASP.NET Core</h1>
 <div align="center">
