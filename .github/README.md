@@ -103,7 +103,7 @@ The recorder will measure execution time of any code, placed between ```BeginRec
 ## Integrations
 Postman test:
 ```js
-pm.test('Server performance is acceptable', () => {
+pm.test('Performance is acceptable', () => {
     let header = postman.getResponseHeader('Server-Timing');
     pm.expect(header).not.eql(undefined);
     
