@@ -13,7 +13,7 @@ namespace Metalface.AspNetCore.ServerTiming
                 throw new System.ArgumentNullException(nameof(services));
             }
 
-            services.TryAdd(ServiceDescriptor.Singleton<IServerTimingRecorder, ServerTimingRecorder>());
+            services.TryAdd(ServiceDescriptor.Scoped<IServerTimingRecorder, ServerTimingRecorder>());
 
             return services;
         }
